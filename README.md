@@ -18,14 +18,3 @@ The NJS body filter intercepts responses from the backend API and modifies the J
 - Node.js and npm
 - Basic understanding of NGINX configuration and JavaScript
 
-## Installation
-
-1. **Backend API Server (10.1.1.5)**
-```bash
-# Install Node.js and dependencies
-sudo apt update
-sudo apt install nodejs npm
-mkdir -p ~/simple-api/simple-api
-cd ~/simple-api/simple-api
-npm init -y
-npm install express
